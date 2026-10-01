@@ -72,7 +72,7 @@ app.use((req, res, next) => {
 app.get('/health', (req, res) => {
   res.status(200).json({
     success: true,
-    message: 'OneHaven Caregiver API is running',
+    message: 'CareSync API is running',
     timestamp: new Date().toISOString()
   });
 });

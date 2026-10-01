@@ -4,7 +4,7 @@ const options = {
   definition: {
     openapi: '3.0.0',
     info: {
-      title: 'OneHaven Caregiver API',
+      title: 'CareSync API',
       version: '1.0.0',
       description: 'Real-time caregiver management API for managing protected members'
     },

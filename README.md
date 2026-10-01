@@ -1,4 +1,4 @@
-# OneHaven Caregiver API
+# CareSync API
 
 Real-time caregiver management API for managing protected members (children, seniors, etc.).
 
@@ -23,8 +23,8 @@ Real-time caregiver management API for managing protected members (children, sen
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/onehaven-caregiver-api.git
-cd onehaven-caregiver-api
+git clone https://github.com/harisdar1/caresync-api.git
+cd caresync-api
 ```
 
 2. Install dependencies:
@@ -45,7 +45,7 @@ cp .env.example .env
 5. Configure environment variables in `.env`:
 ```
 PORT=3000
-MONGODB_URI=mongodb+srv://<username>:<password>@<cluster>.mongodb.net/onehaven
+MONGODB_URI=mongodb+srv://<username>:<password>@<cluster>.mongodb.net/caresync
 SUPABASE_URL=https://<your-project>.supabase.co
 SUPABASE_ANON_KEY=<your-anon-key>
 ```
